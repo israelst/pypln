@@ -1,0 +1,39 @@
+Componentes
+=================================
+
+Manager
+-------
+Responsável por processar as requisições de:
+- Infomações das configurações - Ex: Dados para conexão com o BD
+- Publicação um novo job
+- Um job para processamento
+- Término de um job
+
+Job
+---
+É processado por um Worker
+
+Worker
+------
+Entidade que provê campos de um documento
+
+Broker
+------
+
+Pipeliner
+---------
+
+Pipeline
+--------
+Grafo de Workers que um Job atravessa 
+
+Data Base (MongoDB)
+-------------------
+
+Pypln-web
+---------
+Cliente web para upload dos documentos
+
+WebMonitor
+----------
+Ferramenta de administração do pypln
